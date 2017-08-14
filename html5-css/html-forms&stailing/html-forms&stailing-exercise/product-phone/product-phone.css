@@ -1,0 +1,66 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+@import "https://fonts.googleapis.com/css?family=Anton";
+* {box-sizing:border-box;}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    height: 295px;
+}
+
+aside{
+    width: 350px;
+    display: inline-block;
+    float: left;
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+img{
+    max-width: 300px;
+    display: inline-block;
+}
+label,section,input{
+
+    display: block;
+    padding: 5px;
+}
+body >div{
+    position: relative;
+    left: 20px;
+    margin-left: 40px;
+    top: 30px;
+    font-size: 10px;
+}
+label{
+    margin-bottom: 4px; ;
+}
+h1{
+    font-size: 24px;
+}
+h3{
+    font-size: 15px;
+}
+select,option{
+    background:#6afdc9 ;
+}
+option:hover{
+    background: blue;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#6afdc9 ;
+}
+input{
+    border: none;
+    border-bottom: 5px solid #6afdc9;
+}
+button{
+    margin-top: 10px;
+    background: none;
+    border: 4px solid#6afdc9;
+    border-radius: 15px;
+    color: #6afdc9;
+}

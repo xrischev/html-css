@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+body{
+    background: linear-gradient(to bottom, #567788 0%,#121f25 100%) no-repeat center center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+nav ul{
+    background: #eff4f7;
+    padding: 5px;
+   text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+}
+nav ul li a{
+color: #ABACA6;
+}
+nav ul li a:hover{
+    color: #4F6F7E;
+}
+#sec-brand{
+    background: #EA3D51;
+    z-index: -40;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+   top:0px;
+    left: 360px;
+}
+.brand{
+color: white;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    font-size: 32px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 45px;
+  position: relative;
+    left: 100px;
+}
+#stars{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+main{
+    margin: 0 auto;
+    width: 1350px;
+    height: 900px;
+    background: #CCD0D9;
+    margin-top: 65px;
+}
+main >h2{
+    font-size: 75px;
+    color: #6DFFB8;
+    text-align: center;
+    position: relative;
+    top: -104px;
+    left: 42px;
+    text-transform: uppercase;
+}
+main> h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #121F25;
+    z-index: -1;
+}
+.secPic{
+    width: 300px;
+    height: 420px;
+    margin: 0 auto;
+    background: #EA3554;
+    padding: 10px;
+    position: relative;
+    top: -125px;
+    z-index: 3;
+}
+#text::before{
+    content: "''";
+    color: #BA1C3F;
+    font-size: 30px;
+    font-weight: 800;
+}
+#text::after{
+    content: "''";
+    color: #BA1C3F;
+    font-size: 30px;
+    font-weight: 800;
+}
+#text{
+    padding: 10px;
+}
+#btn-donate{
+   position: relative;
+    top :-20px;
+    left: 120px;
+    background: none;
+    padding: 12px;
+    border:3px solid #6DFFB8;
+}
+#btn-donate:hover{
+    background:#6DFFB8;
+    cursor: pointer;
+}
+#foot1{
+    background: white;
+    width: 1200px;
+    height: 350px;
+    position: relative;
+    top:-473px;
+    left: 150px;
+    z-index: 2;
+
+}
+#footp{
+    width: 750px;
+    position: relative;
+    top:140px;
+    padding: 12px;
+}
+#footp h1{
+    color:#6DFFB8;
+    font-size: 32px;
+}
+#footp button{
+    font-size: 20px;
+    height: 35px;
+    background: none;
+    border: 1px solid#0a2d4a;
+}

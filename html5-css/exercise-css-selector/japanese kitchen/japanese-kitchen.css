@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 14px;
+}
+body{
+    background: url("./dark-wood.jpg");
+   
+    font-family: sans-serif;
+
+
+}
+
+header{
+  background-image: url("./header-page.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 150px;
+    padding: 65px;
+    border-bottom: solid #000000;
+    width: 770px;
+    margin-left: 360px;
+}
+header h1{
+
+    float: right;
+    font-size: 45px;
+    margin-top: -15px;
+}
+nav{
+    background: #9F9C97;
+    width: 900px;
+    margin-left: 360px;
+}
+nav ul{
+    list-style-type: none;
+    border-bottom: solid #000000;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 22px;
+
+}
+nav ul li a{
+    color: #ffffff;
+}
+nav ul li a:hover{
+    color: #000000;
+}
+main{
+    width: 900px;
+    background: #ffffff;
+    margin-left: 360px;
+}
+article +figure{
+    float: left;
+}
+#art1{
+    padding: 20px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 320px;
+    height: 100px;
+}
+#art1 h3{
+    color: #5aa661;
+}
+#p1{
+    padding: 20px;
+    float: right;
+    margin-top: -150px;
+    margin-right: 250px;
+    height: 100px;
+    width: 300px;
+}
+
+#art2{
+
+    padding: 20px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 320px;
+    height: 100px;
+}
+#p2{
+    padding: 20px;
+    float: right;
+    margin-top: -150px;
+    margin-right: 250px;
+    height: 100px;
+    width: 300px;
+}
+#art2 h3{
+    color: #5aa661;
+}
+.popular-recipes{
+float: right;
+    margin-top: -450px;
+    padding: 5px;
+    width: 200px;
+}
+.popular-recipes h2{
+    color: palevioletred;
+    font-size: 25px;
+}
+.popular-recipes ul{
+    list-style-type: none;
+
+}
+.popular-recipes ul li{
+    padding: 10px;
+    text-align: justify;
+
+}
+.popular-recipes ul li a{
+    color: palevioletred;
+}
+.popular-recipes ul li a:hover{
+    background: #e6fcff;
+}
+img{
+    padding: 15px;
+}
+figcaption{
+    padding: 15px;
+    margin-top: -20px;
+}
+footer{
+    background: #9F9C97;
+    text-align: center;
+    padding: 14px;
+
+
+}
+

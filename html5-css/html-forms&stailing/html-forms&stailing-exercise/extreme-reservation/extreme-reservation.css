@@ -1,0 +1,97 @@
+body{
+    background: url("./img/background.jpg");
+    background-size: 1400px 1000px;
+}
+.basic-form{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.basic-form header nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+a{
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.paraglider{
+
+}
+.paraglider:before{
+    background: url("./img/paraglider-icon.png");
+    background-size: 40px 40px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content:"";
+    background-repeat:no-repeat ;
+
+
+
+}
+.skyDiving:before{
+    content: url("./img/sky-diver.png");
+    vertical-align: middle;
+}
+.climbing:before{
+    content: url("./img/climbing.png");
+    vertical-align: middle;
+}
+.aboutUs:before{
+    content: url("./img/about-us.png");
+    vertical-align: middle;
+}
+aside{
+
+    width: 470px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+
+}
+aside fieldset{
+    height: 400px;
+}
+.asideLeft legend{
+text-align: center;
+}
+.asideLeft fieldset div input{
+    display: block;
+    width: 340px;
+    margin: 60px auto;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 20px;
+    background: url("./img/user1.png");
+   background-repeat: no-repeat;
+    background-position: left;
+    background-position: 2% 32%;
+
+
+    opacity: 0.5;
+    text-align: center;
+}
+.asideRight fieldset div p,div,h3,label,input{
+text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+.down label, input{
+    display: block;
+}
+.down input{
+    margin: 0 auto;
+}
+.check input,label{
+    display: inline-block;
+}
+#date{
+    text-align: center;
+}
+.button{
+    float: right;
+}

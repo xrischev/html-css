@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+<header>
+    <h1>Room Reservation</h1>
+</header>
+<main>
+    <div class="div1">
+        <article>
+            <h1>Basic Information</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+                nec commodo.
+            </p>
+        </article>
+        <form>
+            <label for="searc">Search</label>
+            <input type="search" id="searc">
+        </form>
+
+    </div>
+
+    <div class="div2">
+        <div class="form-container">
+        <form class="personDetails">
+            <label>Personal Details</label>
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+            <input type="text" placeholder="Enter email">
+        </form>
+
+        <form class="requestReservation">
+            <label>Request Reservation</label>
+
+            <div class="rol1">
+                <label for="room">Select room</label>
+                <select id="room" type="text" placeholder="Room3">
+                    <option>Room 1</option>
+                    <option>Room 2</option>
+                    <option>Room 3</option>
+                    <option>Room 4</option>
+                </select>
+
+                <label for="numbersRoom">Numbers of Rooms</label>
+                <input type="number" id="numbersRoom">
+            </div>
+
+
+            <div class="rol2">
+                <label for="checkIn">Check-in</label>
+                <input type="date" id="checkIn">
+
+                <label for="checkOut">Check-Out</label>
+                <input type="date" id="checkOut">
+            </div>
+            <button type="submit" class="btn">Book Now</button>
+
+        </form>
+
+
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/sweetalert.css">
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="./jquery-3.1.1.min.js"></script>
+    <script src="dist/sweetalert.min.js"></script>
+
+
+</head>
+<body>
+<button class="btn">abaa</button>
+
+<script>
+    $('.btn').click(() => {
+        swal({ title: "Are you sure?", type: "warning",
+                text: "You will not be able to recover your account!",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "Yes, delete it!",
+                closeOnConfirm: false
+            },
+            function() { swal("Deleted!", "Your account …","success"); }
+        );
+    });
+
+</script>
+</body>
+</html>

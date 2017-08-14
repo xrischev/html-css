@@ -1,0 +1,39 @@
+table tr th{
+    padding: 20px;
+    font-size: 20px;
+}
+th{
+    color: #ffffff;
+}
+table{
+    background: #84b3ad;
+    text-align: center;
+    border-collapse: separate;
+
+}
+.bold{
+    font-weight: bold;
+
+}
+thead{
+    letter-spacing: 2px;
+
+
+}
+tbody{
+    padding: 20px;
+    font-size: 20px;
+}
+td{
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    text-align: left;
+    width: 150px;
+    background: #84b3ad;
+}
+tr:nth-child(even) td{
+    background: #3c52d8;
+}
+tr:nth-child(odd) td{
+    background: #6ad874;
+}

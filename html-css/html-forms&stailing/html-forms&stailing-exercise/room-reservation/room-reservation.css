@@ -1,0 +1,117 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 13px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    background: #EBEBEB;
+    width: 1200px;
+    margin: 0 auto;
+}
+body>header{
+background: #F1F1F1;
+    padding: 7px;
+    border-bottom: 1px dotted;
+}
+header h1{
+    color: #6496B7;
+}
+main>div{
+    display: block;
+}
+.div1{
+
+    display: flex;
+
+}
+.div1 article{
+    width: 1200px;
+
+}
+.div1 form{
+    display: block;
+margin-top: 20px;
+    margin-left: 270px;
+    padding: 5px;
+    font-size: 15px;
+}
+.div1 form input{
+    height: 38px;
+    width: 170px;
+    background-color: white;
+    background-image: url("number-search-icon.png");
+
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.form-container{
+    border: 1px solid blue;
+    display: flex;
+    height: 250px;
+    margin-top: 10px;
+}
+.personDetails{
+    width: 200px;
+    display: block;
+}
+.personDetails > input, label{
+    padding: 5px;
+    margin: 5px;
+}
+.requestReservation{
+width: 400px;
+    margin-left: 600px;
+
+}
+.rol1{
+    width: 400px;
+    height: 80px;
+    padding: 6px;
+
+    display: inline-block;
+    font-size: 10px;
+    position: relative;
+    left: -20px;
+}
+.rol1 label{
+    position: relative;
+    left: 7px;
+}
+#numbersRoom{
+    width: 120px;
+}
+
+.rol2 {
+    width: 400px;
+    padding: 6px;
+    height: 80px;
+
+    display: block;
+    font-size: 10px;
+}
+#checkIn{
+    width: 100px;
+}
+#checkOut{
+    width: 124px;
+}
+input{
+    font-size: 12px;
+}
+.btn{
+    float: right;
+    padding: 10px 30px;
+}
+.rol1 input,select{
+    position: relative;
+    top: 30px;
+    left: -60px;
+}
+.rol2 input,select{
+    position: relative;
+    top: 30px;
+    left: -60px;
+}
+

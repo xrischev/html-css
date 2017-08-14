@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+}
+body{
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    background: url("./food-image-bg.png");
+    background-size:cover ;
+}
+.recipies-info p{
+    display: inline;
+    padding: 20px;
+    font-size: 18px;
+    margin: 30px;
+}
+.recipies-info p span{
+    color: #b5c640;
+}
+.recipies-info{
+   padding: 80px;
+}
+main h1{
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 80px;
+   float: right;
+margin-right: 150px;
+}
+.prep-steps {
+    float: right;
+    width: 650px;
+    margin: -35px 150px;
+    list-style-type:none;
+}
+.prep-steps li{
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.btn-primary{
+    padding: 14px;
+    float: right;
+    margin: -45px 50px;
+    background:none;
+    border: 1px solid #ffffff;
+    border-radius: 10%;
+}
+.btn-primary:hover{
+    background: #b5c640;
+    cursor: pointer;
+}

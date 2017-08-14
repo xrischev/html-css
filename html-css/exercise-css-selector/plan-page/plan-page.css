@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(45deg,
+    rgba(253,149,192,1) 0%,
+    rgba(195,95,204,1) 38%,
+    rgba(175,104,241,1) 66%,
+    rgba(175,104,241,1) 84%,
+    rgba(168,125,255,1) 100%);
+}
+.plan-types{
+    background:#0a2d4a;
+    width: 1200px;
+    height: 700px;
+    margin-left: 150px;
+}
+.cards{
+    font-size: 0px;
+    padding: 45px;
+
+}
+#basic-plan {
+    background: #ffffff url("./plan-background-basic.png") no-repeat right top;
+    background-size: cover;
+    background-size: 240px 240px;
+    font-size: 12px;
+    height: 320px;
+    width: 240px;
+}
+#pro-plan{
+    background: #ffffff url("./plan-background-pro.png") no-repeat right top;
+    background-size: cover;
+    background-size: 240px 240px;
+    font-size: 12px;
+    height: 320px;
+    width: 240px;
+}
+#med-plan{
+    background: #ffffff url("./plan-background-med.png") no-repeat right top;
+    background-size: cover;
+    background-size: 240px 240px;
+    font-size: 12px;
+    height: 320px;
+    width: 240px;
+}
+.cards li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 120px;
+    margin-right: -30px;
+}
+.select-plan{
+    margin: 50px 110px;
+    font-size: 20px;
+    border-radius: 10px;
+    background:linear-gradient(45deg,
+    rgba(253,149,192,1) 0%,
+    rgba(195,95,204,1) 38%,
+    rgba(175,104,241,1) 66%,
+    rgba(175,104,241,1) 84%,
+    rgba(168,125,255,1) 100%);
+}
+.chosen-plan{
+    margin: 50px 110px;
+    font-size: 20px;
+    border-radius: 10px;
+    background:linear-gradient(45deg,
+    rgba(253,149,192,1) 0%,
+    rgba(195,95,204,1) 38%,
+    rgba(175,104,241,1) 66%,
+    rgba(175,104,241,1) 84%,
+    rgba(168,125,255,1) 100%);
+}
+.card-type>h1,h2{
+    font-size: 50px;
+}
+
+.title,.price,.plan{
+    margin-left: 20px;
+}
+.continue{
+    padding: 15px 30px;
+    border-radius: 15px;
+    background:linear-gradient(45deg,
+    rgba(253,149,192,1) 0%,
+    rgba(195,95,204,1) 38%,
+    rgba(175,104,241,1) 66%,
+    rgba(175,104,241,1) 84%,
+    rgba(168,125,255,1) 100%);
+
+    margin: 0px 500px;
+}
+.continue:hover {
+    background: #ffffff;
+}
+

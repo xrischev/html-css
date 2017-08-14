@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+    margin: 0px;
+}
+body{
+    font-size: 18px;
+}
+body>header{
+    background: url("./img/Layer-759_02.jpg");
+    min-height: 650px;
+    min-width: 400px;
+    margin: 0px;
+
+}
+.menu{
+    max-width: 1000px;
+    margin: 0px auto;
+    position: relative;
+    top:15px;
+}
+.menu ul{
+background: #BA925E;
+    text-align: center;
+   margin: 0px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 24px;
+    font-size: 1.2em;
+    margin: 0px;
+
+}
+.menu ul li a{
+text-decoration: none;
+    color: white;
+    margin: 0px;
+}
+
+.title-header{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.title-header h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.4em;
+    margin: 0px;
+
+}
+.title-header p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    margin-top: 40px;
+}
+.title-header button{
+    text-align: center;
+    position: relative;
+    top: -28px;
+    padding: 5px;
+    color: white;
+    background: #090821;
+}
+.title-header button:hover{
+background:#BA925E ;
+    color: #1d211e;
+    cursor: pointer;
+}
+.industries{
+text-align: center;
+}
+.industries h1{
+    font-size: 2.4em;
+}
+.industries article{
+    display: inline-block;
+    width: 350px;
+    padding: 14px;
+}
+.industries article i{
+    background: #080820;
+    float: left;
+    color: white;
+    border-radius: 35px;
+    margin-left: -30px;
+}
+.industries article h2{
+    font-size: 1em;
+    text-align: left;
+}
+.art1 {
+    width: 300px;
+}
+.p1{
+    text-align: left;
+    margin-left: 20px;
+
+}
+.p1 p{
+    text-align: justify;
+    margin-top: 10px;
+}
+.help{
+    text-align: center;
+    background: url("./img/steel-bg.jpg");
+    opacity: 0.4;
+    min-height: 100px;
+}
+.help div{
+    position: relative;
+    top: 20px;
+
+}
+.help div h3{
+    color: #BE9F73;
+    text-shadow: 2px 2px 4px white;
+}
+.traders{
+    background:url("./img/background-choose-us.jpg");
+    height: 300px;
+    text-align: center;
+
+
+}
+.traders >h1{
+    font-size: 1.6em;
+    color: white;
+}
+.traders article{
+    display: inline-block;
+    width: 280px;
+    height: 160px;
+    border: 1px solid orange;
+    padding: 5px;
+    margin: 12px;
+
+}
+.traders article:hover{
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+    color: #1d211e;
+}
+
+.traders article h1,p{
+    color: black;
+    font-size: 0.8em;
+    position: relative;
+    top: 15px;
+}
+.traders article h1{
+   position: relative;
+    top: 20px;
+}
+
+.womanPic{
+    background: url("./img/consulting-woman.jpg");
+    height: 600px;
+}
+.womanPic div{
+    width: 650px;
+    height: 600px;
+    margin-top: 12px;
+    margin-right: 15px;
+    float: right;
+    background: rgba(255,255,255,0.5);
+}
+.womanPic div section{
+    width: 500px;
+    margin: 60px auto;
+    padding: 10px;
+}
+.womanPic div section section{
+    background: #080820;
+    height: 350px;
+}
+.womanPic div section p{
+    color: #1d211e;
+}
+.box h3{
+    color: white;
+}
+.box h1{
+color: #3B3B4F;
+    text-align: right;
+}
+.marks{
+
+    display: inline-block;
+    margin: 0 auto;
+
+}
+.marks ul{
+list-style-type: none;
+  position: relative;
+
+
+}
+.marks ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+footer{
+    background: #080820;
+    min-height: 300px;
+    font-size: 0.7em;
+}
+footer section{
+    display: inline-block;
+}
+.consultin h2{
+    color: white;
+    margin: 12px;
+}
+.ulConsulting{
+    color: white;
+    list-style-type: none;
+    margin: 12px;
+}
+.ulConsulting li{
+    margin: 14px;
+}
+.icons li i{
+    background: #838292;
+    border-radius: 35px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+margin-left: 25px;
+}
+.icons li{
+    list-style-type: none;
+    display: inline-block;
+    padding: -20px;
+}
+.links li{
+    color: orange;
+    margin: 3px;
+    list-style-type: none;
+}
+.extraLinks{
+margin-left: 160px;
+    margin: 0 auto;
+}
+.extraLinks .firstUl{
+position: relative;
+    top: 80px;
+
+}
+.second{
+    position: relative;
+    top: -30px;
+    left: 120px;
+}
+.instagramWidjet{
+    float: right;
+    margin-top: 90px;
+    margin-right: 150px;
+}
+.instagramWidjet ul{
+    text-align: right;
+}
+.instagramWidjet ul li{
+    display:inline-block;
+    list-style-type: none;
+
+}
+.instagramWidjet img{
+    width: 50px;
+    height: 50px;
+}
+

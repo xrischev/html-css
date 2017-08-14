@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    font-size: 14px;
+    font-family: 'Open Sans','Arial','sans-serif',"Comfortaa",sans-serif;
+}
+
+body >aside{
+float: left;
+}
+body>aside div{
+    text-align: center;
+    font-size: 1rem;
+}
+body>aside div img{
+    width: 100px;
+    height: 70px;
+    border-radius: 50px;
+}
+body>aside div{
+    margin-left: 22px;
+}
+body>aside nav ul li{
+    list-style-type: none;
+    padding: 6px;
+    margin-left: -35px;
+}
+body>aside nav ul li a {
+    padding: 5px;
+    text-transform: uppercase;
+    color: #CAD1D7;
+}
+body>aside nav ul li a:hover{
+    color: #61696C;
+}
+.basic-main{
+    margin-left: 220px;
+    padding: 40px;
+    background: #F4F5F7;
+}
+.basic-main header button{
+    float: right;
+    margin-right: 100px;
+    padding: 7px;
+    margin-top: 10px;
+    background: #FF7739;
+    color: white;
+    border-radius: 35px;
+}
+.basic-main header button:hover{
+    background: none;
+    color:#FF7739;
+    border: 1px solid #FF7739;
+}
+main main div{
+    display: inline-block;
+    padding: 12px;
+    font-size: 1rem;
+}
+#pic div{
+width: 365px;
+    background: white;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);;
+}
+#pic1Span{
+    position: relative;
+    top: -122px;
+    left: -18px;
+    background: #B8C5CD;
+    border-radius: 35px;
+    color: white;
+    padding: 4px;
+}
+
+

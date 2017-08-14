@@ -1,0 +1,10 @@
+@media screen and (max-width: 700px){
+    .wrap{
+
+        width: 100%!important;
+    }
+    .box {
+        width: 100%!important;
+        margin: 0 auto!important;
+    }
+}

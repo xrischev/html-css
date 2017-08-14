@@ -1,0 +1,75 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,500,700 ";
+* {box-sizing:border-box;}
+body{
+    text:#1E1917;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #EEEEEE;
+}
+header{
+    background: white;
+    padding: 16px;
+    border-top: 6px solid #374C55;
+    border-right: 6px solid #374C55;
+}
+main{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+main form label,input{
+    display: block;
+    margin: 5px;
+}
+.input{
+    width: 600px;
+    height: 35px;
+    border-top: 3px solid #374C55;
+    border-left: 3px solid #374C55;
+}
+.userType div{
+display: inline-block;
+}
+.userType div label,input{
+    display: inline-block;
+    padding: 10px;
+}
+.div2{
+    margin-left: 200px;
+}
+#groupForm{
+    border-top: 3px solid #374C55;
+    border-left: 3px solid #374C55;
+    width: 600px;
+    background: white;
+}
+.contacts label,a{
+    display: block;
+    margin: 6px;
+    margin-top: 15px;
+}
+.btn{
+  text-align: center;
+    margin-right: 120px;
+}
+.btn button{
+    padding: 8px 100px;
+    margin: 5px;
+    background: none;
+    border: none;
+    border-right: 3px solid #E1AF9F;
+    border-bottom: 3px solid #E1AF9F;
+}
+.save{
+    border-right: 3px solid #136F64 !important;
+    border-bottom: 3px solid #136F64 !important;
+}
+.submit:hover{
+    cursor: pointer;
+    background:#E1AF9F;
+    color: white;
+}
+.save:hover{
+    cursor: pointer;
+    background: #136F64;
+    color: white;
+}
